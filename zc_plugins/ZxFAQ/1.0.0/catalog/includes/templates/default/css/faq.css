@@ -1,0 +1,33 @@
+.faqCategoryTitle {
+    margin-top: 25px;
+    padding-bottom: 15px;
+    font-size: 1.4em;
+}
+.faqItem {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.faqItem:hover {
+    border-bottom: 1px solid #FF0000;
+}
+.faqQuestion {
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    list-style: none;
+}
+.faqQuestion:hover {
+    color: #FF0000;
+}
+/* Custom triangle indicator */
+.faqQuestion::after {
+    content: '+';
+    float: right;
+    font-weight: bold;
+}
+details[open] .faqQuestion::after {
+    content: '-';
+}
+.faqAnswer {
+    padding: 15px;
+}
