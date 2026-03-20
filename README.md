@@ -4,7 +4,7 @@ A modern, fully encapsulated FAQ (Frequently Asked Questions) Manager for Zen Ca
 
 ## Features
 
-* **Encapsulated Plugin:** Follows the Zen Cart 2.0+ `includes/plugins` architecture for clean installation and maintenance.
+* **Encapsulated Plugin:** Follows the Zen Cart 2.0+ `zc_plugins` architecture for clean installation and maintenance.
 * **Modern Admin UI:** Uses Bootstrap 3 for a clean, responsive interface consistent with modern Zen Cart admin panels.
 * **Categorization:** Group questions into specific topics (e.g., Shipping, Returns, Products).
 * **Multi-Language:** Full support for multi-language stores.
